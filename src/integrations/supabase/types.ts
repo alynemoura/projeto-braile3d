@@ -17,18 +17,24 @@ export type Database = {
       braille_texts: {
         Row: {
           data_criacao: string
+          email: string | null
           id: string
           texto: string
+          user_id: string | null
         }
         Insert: {
           data_criacao?: string
+          email?: string | null
           id?: string
           texto: string
+          user_id?: string | null
         }
         Update: {
           data_criacao?: string
+          email?: string | null
           id?: string
           texto?: string
+          user_id?: string | null
         }
         Relationships: []
       }

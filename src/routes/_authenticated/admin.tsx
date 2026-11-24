@@ -11,7 +11,7 @@ const textsQuery = queryOptions({
   },
 });
 
-export const Route = createFileRoute("/admin")({
+export const Route = createFileRoute("/_authenticated/admin")({
   head: () => ({
     meta: [
       { title: "Painel — Braille3D" },
@@ -37,11 +37,11 @@ function Admin() {
       ) : (
         <div className="overflow-x-auto rounded-lg border">
           <table className="w-full text-left text-sm">
-            <thead className="bg-muted"><tr><th className="p-3">Texto</th><th className="p-3">Data</th></tr></thead>
+            <thead className="bg-muted"><tr><th className="p-3">E-mail</th><th className="p-3">Texto</th><th className="p-3">Data</th></tr></thead>
             <tbody>
               {data.map((r) => (
                 <tr key={r.id} className="border-t">
-                  <td className="p-3 break-all">{r.texto}</td>
+                  <td className="p-3 break-all">{r.email ?? "—"}</td><td className="p-3 break-all">{r.texto}</td>
                   <td className="whitespace-nowrap p-3 text-muted-foreground">{new Date(r.data_criacao).toLocaleString("pt-BR")}</td>
                 </tr>
               ))}
@@ -49,7 +49,7 @@ function Admin() {
           </table>
         </div>
       )}
-      <Link to="/" className="mt-6 inline-block rounded-md bg-primary px-4 py-2 font-semibold text-primary-foreground hover:bg-primary/90">
+      <Link to="/gerador" className="mt-6 inline-block rounded-md bg-primary px-4 py-2 font-semibold text-primary-foreground hover:bg-primary/90">
         Voltar para o gerador
       </Link>
     </main>
