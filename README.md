@@ -64,8 +64,8 @@ Durante o desenvolvimento e testes da interface, foram solicitados os seguintes 
 - Adição de feedback visual (estado de carregamento) enquanto o arquivo STL é processado para download.
 
 ## Evidências (capturas de tela)
+<img width="1132" height="923" alt="image" src="https://github.com/user-attachments/assets/0d853518-eb6e-49c8-b77a-d256150fddc2" />
 
-*Adicione aqui as imagens da sua aplicação rodando. Elas são a prova mais forte de que o MVP funciona.*
 
 ### Interface do Usuário
 ![Tela inicial do Editor Braille 3D](docs/tela-inicial.png)
