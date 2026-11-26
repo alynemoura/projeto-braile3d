@@ -68,20 +68,20 @@ Durante o desenvolvimento e testes da interface, foram solicitados os seguintes 
 
 
 ### Interface do Usuário
-![Tela inicial do Editor Braille 3D](docs/tela-inicial.png)
-*Legenda: Landing page explicando a proposta e campo para digitação do texto.*
+<img width="1276" height="990" alt="image" src="https://github.com/user-attachments/assets/1aad48a9-3998-4793-8e3b-2f209629c2c4" />
+*Legenda: Landing page e campo para digitação do texto.*
 
-![Resultado da geração e download](docs/download-stl.png)
+<img width="1262" height="995" alt="image" src="https://github.com/user-attachments/assets/2a1794f8-b1c0-4890-943f-9673dbae39db" />
 *Legenda: Texto convertido e botão para baixar o arquivo STL.*
 
 ### Visualização do Modelo 3D (Opcional, mas recomendado)
-![Imagem do STL fatiado ou impresso](docs/impressao-braille.jpg)
-*Legenda: Resultado físico (ou preview no software de impressão) gerado a partir do arquivo baixado no app.*
+<img width="1366" height="724" alt="image" src="https://github.com/user-attachments/assets/023b134d-53e4-4c4a-a241-a03a2d720166" />
+*Legenda: Preview no software de impressão) gerado a partir do arquivo baixado no app.*
 
 ## Tecnologias e Créditos
 
 - **Construído com:** [Lovable](https://lovable.dev) (Vibe Coding)
-- **Auxílio de IA:** ChatGPT (refinamento de prompts e estruturação do projeto)
+- **Auxílio de IA:** Dee (refinamento de prompts e estruturação do projeto)
 - **Design/Backend:** Lovable Cloud
 
 ## Verificação de Segurança
