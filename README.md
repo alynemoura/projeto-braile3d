@@ -69,14 +69,21 @@ Durante o desenvolvimento e testes da interface, foram solicitados os seguintes 
 
 ### Interface do Usuário
 <img width="1276" height="990" alt="image" src="https://github.com/user-attachments/assets/1aad48a9-3998-4793-8e3b-2f209629c2c4" />
+
 *Legenda: Landing page e campo para digitação do texto.*
 
+
 <img width="1262" height="995" alt="image" src="https://github.com/user-attachments/assets/2a1794f8-b1c0-4890-943f-9673dbae39db" />
+
 *Legenda: Texto convertido e botão para baixar o arquivo STL.*
 
-### Visualização do Modelo 3D (Opcional, mas recomendado)
+
+### Visualização do Modelo 3D 
 <img width="1366" height="724" alt="image" src="https://github.com/user-attachments/assets/023b134d-53e4-4c4a-a241-a03a2d720166" />
+
 *Legenda: Preview no software de impressão) gerado a partir do arquivo baixado no app.*
+
+
 
 ## Tecnologias e Créditos
 
